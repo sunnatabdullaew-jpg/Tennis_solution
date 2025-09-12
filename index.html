@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" />
+    <title>Tennis_solution</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header class="wrapper">
+      <div class="bgimg__div">
+        <div class="wrapper header__wrapper">
+          <nav class="navbar contain">
+            <img src="/images/Group.png" alt="img" />
+            <div class="nav__links">
+              <a class="nav__links" href="#">Главная</a>
+              <a class="nav__links" href="#">клубе</a>
+              <a class="nav__links" href="#">Турниры</a>
+              <a class="nav__links" href="#">Услуги</a>
+              <a class="nav__links" href="#">Детский теннис</a>
+              <a class="nav__links" href="#">Галерея</a>
+              <a class="nav__links" href="#">Цены</a>
+              <a class="nav__links" href="#">Контакты</a>
+            </div>
+            <div class="nav__icons__div">
+              
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 24 24"
+                  fill="#fff"
+                >
+                  <path
+                    fill="inherit"
+                    d="M15.663 11.775c-2.017-1.078-3.948-2.078-5.922-3.112v6.19c2.077-1.13 4.267-2.164 5.931-3.087l-.009.009z"
+                    opacity="0"
+                  />
+                  <path
+                    fill="#fff"
+                    d="M22.974 9.715a8.539 8.539 0 0 0-.914-4.13a2.868 2.868 0 0 0-1.715-1.017a81.07 81.07 0 0 0-8.337-.293a80.928 80.928 0 0 0-8.336.293c-.55.102-1.058.36-1.466.741c-.895.83-.96 2.251-1.095 3.449a47.52 47.52 0 0 0 0 6.482c.025.676.126 1.347.302 2c.12.506.362.974.707 1.363c.408.402.928.672 1.491.775a44.69 44.69 0 0 0 6.5.328c3.495.056 6.573-.003 10.199-.276a2.89 2.89 0 0 0 1.534-.784c.273-.272.48-.602.604-.966c.362-1.095.54-2.243.526-3.396c.034-.595.034-3.974 0-4.57zm-7.31 2.06l-.004-.002c-.83.46-1.788.946-2.798 1.459a125.297 125.297 0 0 0-3.121 1.62v-6.19c.987.518 1.963 1.027 2.945 1.54c.98.514 1.967 1.033 2.974 1.57l.012-.006l-.008.009z"
+                  />
+                </svg>
+              </a>
+              <a target="_blank" href="https://vk.com/?lang=en">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="36"
+                  height="36"
+                  viewBox="0 0 876 614"
+                  fill="#000000"
+                >
+                  <path
+                    fill="#fff"
+                    d="M530 339c-16-6-16-29-17-45c-4-57 16-144-8-181c-17-22-99-20-149-17c-14 2-31 5-43 11s-24 16-24 25c0 13 30 11 41 28c12 18 12 57 12 89c0 37-6 86-21 88c-23 1-36-22-48-39c-24-33-48-74-66-114c-9-21-14-44-27-53c-20-14-56-15-91-14c-32 1-78-3-87 16c-7 21 8 41 16 58c41 89 85 167 139 241c50 69 97 124 189 153c26 8 140 31 163 0c8-12 6-39 10-59s9-40 28-41c16-1 25 13 35 23c11 11 20 20 28 30c19 19 39 45 63 55c33 14 84 10 132 8c39-1 67-9 70-32c2-18-18-44-30-59c-30-37-44-48-78-82c-15-15-34-31-34-49c-1-11 8-21 16-32c35-52 70-89 102-143c9-16 30-53 22-71c-9-20-59-14-90-14c-40 0-92-3-102 5c-19 13-27 34-36 54c-20 46-47 93-75 128c-10 12-29 37-40 33z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </nav>
+        </div>
+
+        <div class="header__div contain">
+          <p class="header__div__title">
+            Петербургский теннисный клуб имени М.А. Пасечниковa
+          </p>
+          <div class="header__div__center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              viewBox="0 0 26 26"
+              fill="#000000"
+            >
+              <circle
+                cx="13"
+                cy="13"
+                r="11"
+                fill="#8D86C9"
+                stroke="inherit"
+                stroke-width="2"
+              />
+              <path fill="#fff" d="m17 13l-6 4V9" />
+            </svg>
+            <p class="header__div__text">Посмотрите видео o нашем клубе</p>
+          </div>
+          <div class="header__botdiv">
+            <div class="header__botitems">
+              <p class="header__div__text">Услуги</p>
+              <div class="header__items__div">
+                <p class="header__items__title">Аренда корта</p>
+                <svg
+                  class="header__botiticons"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 24 24"
+                  fill="#000000"
+                >
+                  <path
+                    fill="#fff"
+                    fill-rule="evenodd"
+                    d="M15.75 2.25H21a.75.75 0 0 1 .75.75v5.25a.75.75 0 0 1-1.5 0V4.81L8.03 17.03a.75.75 0 0 1-1.06-1.06L19.19 3.75h-3.44a.75.75 0 0 1 0-1.5Zm-10.5 4.5a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V10.5a.75.75 0 0 1 1.5 0v8.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V8.25a3 3 0 0 1 3-3h8.25a.75.75 0 0 1 0 1.5H5.25Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="header__botitems">
+              <p class="header__div__text">Услуги</p>
+              <div class="header__items__div">
+                <p class="header__items__title">Детский теннис</p>
+                <svg
+                  class="header__botiticons"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 24 24"
+                  fill="#000000"
+                >
+                  <path
+                    fill="#fff"
+                    fill-rule="evenodd"
+                    d="M15.75 2.25H21a.75.75 0 0 1 .75.75v5.25a.75.75 0 0 1-1.5 0V4.81L8.03 17.03a.75.75 0 0 1-1.06-1.06L19.19 3.75h-3.44a.75.75 0 0 1 0-1.5Zm-10.5 4.5a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V10.5a.75.75 0 0 1 1.5 0v8.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V8.25a3 3 0 0 1 3-3h8.25a.75.75 0 0 1 0 1.5H5.25Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="header__botitems">
+              <p class="header__div__text">Услуги</p>
+              <div class="header__items__div">
+                <p class="header__items__title">Сборы команд</p>
+                <svg
+                  class="header__botiticons"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 24 24"
+                  fill="#000000"
+                >
+                  <path
+                    fill="#fff"
+                    fill-rule="evenodd"
+                    d="M15.75 2.25H21a.75.75 0 0 1 .75.75v5.25a.75.75 0 0 1-1.5 0V4.81L8.03 17.03a.75.75 0 0 1-1.06-1.06L19.19 3.75h-3.44a.75.75 0 0 1 0-1.5Zm-10.5 4.5a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V10.5a.75.75 0 0 1 1.5 0v8.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V8.25a3 3 0 0 1 3-3h8.25a.75.75 0 0 1 0 1.5H5.25Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div class="header__botitems">
+              <p class="header__div__text">Услуги</p>
+              <div class="header__items__div">
+                <p class="header__items__title">Расписание</p>
+                <svg
+                  class="header__botiticons"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="30"
+                  height="30"
+                  viewBox="0 0 24 24"
+                  fill="#000000"
+                >
+                  <path
+                    fill="#fff"
+                    fill-rule="evenodd"
+                    d="M15.75 2.25H21a.75.75 0 0 1 .75.75v5.25a.75.75 0 0 1-1.5 0V4.81L8.03 17.03a.75.75 0 0 1-1.06-1.06L19.19 3.75h-3.44a.75.75 0 0 1 0-1.5Zm-10.5 4.5a1.5 1.5 0 0 0-1.5 1.5v10.5a1.5 1.5 0 0 0 1.5 1.5h10.5a1.5 1.5 0 0 0 1.5-1.5V10.5a.75.75 0 0 1 1.5 0v8.25a3 3 0 0 1-3 3H5.25a3 3 0 0 1-3-3V8.25a3 3 0 0 1 3-3h8.25a.75.75 0 0 1 0 1.5H5.25Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="wrapper">
+        <div class="contain section1__div">
+          <div class="ball__div">
+            <div class="ball__items">
+              <img src="./images/Rectangle 39.png" alt="img" />
+              <p class="ball__text">5 летних грунтовых кортов</p>
+            </div>
+            <div class="ball__items">
+              <img src="./images/Rectangle 41(1).png" alt="img" />
+              <p style="width: 350px" class="ball__text">
+                Зал с покрытием “Искусственная трава”
+              </p>
+            </div>
+            <div class="ball__items">
+              <img src="/images/Rectangle 43.png" alt="img" />
+              <p class="ball__text">Зал с покрытием “Хард”</p>
+            </div>
+          </div>
+          <div class="sport__div">
+            <img class="sport__img" src="/images/Rectangle 45.png" alt="img" />
+            <div class="sport__item">
+              <h2 class="sport__item__title">Спортивный клуб</h2>
+              <p class="sport__items__text">
+                Imperdiet lorem ipsum, pulvinar aliquet sit ultricies in sit
+                turpis. Ultricies erat pretium risus quam tincidunt non viverra
+                porttitor. Sollicitudin enim nunc in nisi donec vel. Blandit
+                mauris vitae amet aliquet ultrices mauris pellentesque. Non
+                ipsum commodo, sit mi sit netus aenean nisl. ]Donec sit
+                pellentesque enim, vestibulum.
+                <br /><br />
+                Condimentum hac adipiscing purus in augue nisi. Convallis ut
+                nisi.
+              </p>
+              <h2 class="sport__itemstitle">
+                Ornare orci ut dictum nulla fames.
+              </h2>
+              <div class="sport__item__div">
+                <div class="sport__itemdiv__item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="#000000"
+                  >
+                    <path fill="#8D86C9" d="M0 0h24v24H0z" />
+                  </svg>
+                  <p class="sport__items__text sportitem__text">
+                    Euismod diam, vel venenatis bibendum sodales sem hendrerit
+                    vulputate sagittis.
+                  </p>
+                </div>
+                <div class="sport__itemdiv__item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="#000000"
+                  >
+                    <path fill="#8D86C9" d="M0 0h24v24H0z" />
+                  </svg>
+                  <p class="sport__items__text sportitem__text">
+                    Nisl senectus sed malesuada donec. Interdum malesuada
+                    bibendum imperdiet elementum auctor vitae in.
+                  </p>
+                </div>
+                <div class="sport__itemdiv__item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="#000000"
+                  >
+                    <path fill="#8D86C9" d="M0 0h24v24H0z" />
+                  </svg>
+                  <p class="sport__items__text sportitem__text">
+                    Quam purus ornare dictum pharetra. Sed viverra tellus
+                    sollicitudin urna, sagittis.
+                  </p>
+                </div>
+                <div class="sport__itemdiv__item">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="8"
+                    height="10"
+                    viewBox="0 0 24 24"
+                    fill="#000000"
+                  >
+                    <path fill="#8D86C9" d="M0 0h24v24H0z" />
+                  </svg>
+                  <p class="sport__items__text sportitem__text">
+                    Scelerisque urna senectus commodo, nam. Donec nibh tempus
+                    imperdiet nisi, tincidunt mus egestas nisl nullam.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="trainer__div">
+            <div class="trainer__top">
+              <h2 class="sport__item__title">Тренерский состав</h2>
+              <div class="trainer__topdiv">
+                <div class="trainer__arrow-div">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13.5"
+                    height="15.5"
+                    viewBox="0 0 32 32"
+                    fill="#000000"
+                  >
+                    <path
+                      fill="#fff"
+                      d="m13.28 6.78l-8.5 8.5l-.686.72l.687.72l8.5 8.5l1.44-1.44L7.936 17H28v-2H7.937l6.782-6.78l-1.44-1.44z"
+                    />
+                  </svg>
+                </div>
+                <div class="trainer__arrow-div">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="13.5"
+                    height="15.5"
+                    viewBox="0 0 32 32"
+                    fill="#000000"
+                  >
+                    <path
+                      fill="#fff"
+                      d="m18.72 6.78l-1.44 1.44L24.063 15H4v2h20.063l-6.782 6.78l1.44 1.44l8.5-8.5l.686-.72l-.687-.72l-8.5-8.5z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="trainer__bot">
+              <div class="trainer__botitem">
+                <div class="trainer__imgdiv">
+                  <img src="/images/Rectangle 39(1).png" alt="img" />
+                </div>
+                <p class="sport__itemstitle">
+                  Pulvinar <br />
+                  aliquam
+                </p>
+                <p class="sport__items__text trainer__itemtext">
+                  Arcu elit massa amet turpis vel <br />
+                  consequat pellentesque sit.
+                </p>
+              </div>
+              <div class="trainer__botitem">
+                <div class="trainer__imgdiv">
+                  <img src="/images/Rectangle 52.png" alt="img" />
+                </div>
+                <p class="sport__itemstitle">
+                  Pretium <br />
+                  odio
+                </p>
+                <p class="sport__items__text trainer__itemtext">
+                  Bibendum aliquam volutpat <br />
+                  nisl a duis in nisi. In sed <br />
+                  commodo lorem morbi quis.
+                </p>
+              </div>
+              <div class="trainer__botitem">
+                <div class="trainer__imgdiv">
+                  <img src="/images/Rectangle 54.png" alt="img" />
+                </div>
+                <p class="sport__itemstitle trainer__itemtitle">
+                  Aliquet <br />
+                  consectetur
+                </p>
+                <p class="sport__items__text trainer__itemtext">
+                  Id sapien sed nibh fermentum <br />
+                  massa posuere ipsum. Diam in.
+                </p>
+              </div>
+              <div class="trainer__botitem">
+                <div class="trainer__imgdiv">
+                  <img src="/images/Rectangle 56(1).png" alt="img" />
+                </div>
+                <p class="sport__itemstitle trainer__itemtitle">
+                  Blandit <br />
+                  augue
+                </p>
+                <p class="sport__items__text trainer__itemtext">
+                  Scelerisque accumsan pretium <br />
+                  justo, vitae elit. Dolor semper <br />
+                  morbi sit auctor vel diam eros.
+                </p>
+              </div>
+              <div class="trainer__botitem">
+                <div class="trainer__imgdiv">
+                  <img src="./images/Rectangle 58.png" alt="img" />
+                </div>
+                <p class="sport__itemstitle trainer__itemtitle">
+                  Lorem <br />
+                  lacus
+                </p>
+                <p class="sport__items__text trainer__itemtext">
+                  Adipiscing amet, viverra <br />
+                  dignissim egestas. Sed nibh <br />
+                  egestas venenatis faucibus.
+                </p>
+              </div>
+              <div class="trainer__botitem">
+                <div class="trainer__imgdiv">
+                  <img src="./images/Rectangle 60.png" alt="img" />
+                </div>
+                <p class="sport__itemstitle trainer__itemtitle">
+                  Sed <br />
+                  erat
+                </p>
+                <p class="sport__items__text trainer__itemtext">
+                  Quis ullamcorper pretium <br />
+                  lacus risus tellus dolor etiam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="price__div">
+            <div class="price__divleft">
+              <h2 class="sport__item__title">Цены и абонементы</h2>
+              <div class="price__item">
+                <div class="price__item-items">
+                  <p class="price__item-text">Зимний сезон 2021-2022</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      fill="#fff"
+                      d="m13.28 6.78l-8.5 8.5l-.686.72l.687.72l8.5 8.5l1.44-1.44L7.936 17H28v-2H7.937l6.782-6.78l-1.44-1.44z"
+                    />
+                  </svg>
+                </div>
+                <div class="price__item-items">
+                  <p class="price__item-text">Абонементы</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      fill="#fff"
+                      d="m13.28 6.78l-8.5 8.5l-.686.72l.687.72l8.5 8.5l1.44-1.44L7.936 17H28v-2H7.937l6.782-6.78l-1.44-1.44z"
+                    />
+                  </svg>
+                </div>
+                <div class="price__item-items">
+                  <p class="price__item-text">Скидки</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      fill="#fff"
+                      d="m13.28 6.78l-8.5 8.5l-.686.72l.687.72l8.5 8.5l1.44-1.44L7.936 17H28v-2H7.937l6.782-6.78l-1.44-1.44z"
+                    />
+                  </svg>
+                </div>
+                <div class="price__item-items">
+                  <p class="price__item-text">Дополнительные услуги</p>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 32 32"
+                  >
+                    <path
+                      fill="#fff"
+                      d="m13.28 6.78l-8.5 8.5l-.686.72l.687.72l8.5 8.5l1.44-1.44L7.936 17H28v-2H7.937l6.782-6.78l-1.44-1.44z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="price__divright">
+              <div class="trainer__top">
+                <h2 class="sport__item__title">Тренерский состав</h2>
+                <div class="trainer__topdiv">
+                  <div class="trainer__arrow-div">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13.5"
+                      height="15.5"
+                      viewBox="0 0 32 32"
+                      fill="#000000"
+                    >
+                      <path
+                        fill="#fff"
+                        d="m13.28 6.78l-8.5 8.5l-.686.72l.687.72l8.5 8.5l1.44-1.44L7.936 17H28v-2H7.937l6.782-6.78l-1.44-1.44z"
+                      />
+                    </svg>
+                  </div>
+                  <div class="trainer__arrow-div">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="13.5"
+                      height="15.5"
+                      viewBox="0 0 32 32"
+                      fill="#000000"
+                    >
+                      <path
+                        fill="#fff"
+                        d="m18.72 6.78l-1.44 1.44L24.063 15H4v2h20.063l-6.782 6.78l1.44 1.44l8.5-8.5l.686-.72l-.687-.72l-8.5-8.5z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="trainer__bot">
+                <img src="/images/Rectangle 39(2).png" alt="img" />
+                <p class="trainer__bot-text">Уютное кафе</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="wrapper footer">
+      <div class="contain footer__div">
+        <p class="footer__text">2022 © Все права защищены.</p>
+        <div class="footer__linkdiv">
+          <a class="footer__link" href="">Главная</a>
+          <a class="footer__link" href="">О клубе</a>
+          <a class="footer__link" href="">Турниры</a>
+          <a class="footer__link" href="">Услуги</a>
+          <a class="footer__link" href="">Детский теннис</a>
+          <a class="footer__link" href="">Галерея</a>
+          <a class="footer__link" href="">Цены</a>
+          <a class="footer__link" href="">Контакты</a>
+        </div>
+        <div class="footer__iconsdiv">
+          <a target="_blank" href="https://youtube.com">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 24 24"
+              fill="#8D86C9"
+            >
+              <path
+                fill="inherit"
+                d="M15.663 11.775c-2.017-1.078-3.948-2.078-5.922-3.112v6.19c2.077-1.13 4.267-2.164 5.931-3.087l-.009.009z"
+                opacity="0"
+              />
+              <path
+                fill="#8D86C9"
+                d="M22.974 9.715a8.539 8.539 0 0 0-.914-4.13a2.868 2.868 0 0 0-1.715-1.017a81.07 81.07 0 0 0-8.337-.293a80.928 80.928 0 0 0-8.336.293c-.55.102-1.058.36-1.466.741c-.895.83-.96 2.251-1.095 3.449a47.52 47.52 0 0 0 0 6.482c.025.676.126 1.347.302 2c.12.506.362.974.707 1.363c.408.402.928.672 1.491.775a44.69 44.69 0 0 0 6.5.328c3.495.056 6.573-.003 10.199-.276a2.89 2.89 0 0 0 1.534-.784c.273-.272.48-.602.604-.966c.362-1.095.54-2.243.526-3.396c.034-.595.034-3.974 0-4.57zm-7.31 2.06l-.004-.002c-.83.46-1.788.946-2.798 1.459a125.297 125.297 0 0 0-3.121 1.62v-6.19c.987.518 1.963 1.027 2.945 1.54c.98.514 1.967 1.033 2.974 1.57l.012-.006l-.008.009z"
+              />
+            </svg>
+          </a>
+          <a target="_blank" href="https://vk.com/?lang=en">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 876 614"
+              fill="#000000"
+            >
+              <path
+                fill="#8D86C9"
+                d="M530 339c-16-6-16-29-17-45c-4-57 16-144-8-181c-17-22-99-20-149-17c-14 2-31 5-43 11s-24 16-24 25c0 13 30 11 41 28c12 18 12 57 12 89c0 37-6 86-21 88c-23 1-36-22-48-39c-24-33-48-74-66-114c-9-21-14-44-27-53c-20-14-56-15-91-14c-32 1-78-3-87 16c-7 21 8 41 16 58c41 89 85 167 139 241c50 69 97 124 189 153c26 8 140 31 163 0c8-12 6-39 10-59s9-40 28-41c16-1 25 13 35 23c11 11 20 20 28 30c19 19 39 45 63 55c33 14 84 10 132 8c39-1 67-9 70-32c2-18-18-44-30-59c-30-37-44-48-78-82c-15-15-34-31-34-49c-1-11 8-21 16-32c35-52 70-89 102-143c9-16 30-53 22-71c-9-20-59-14-90-14c-40 0-92-3-102 5c-19 13-27 34-36 54c-20 46-47 93-75 128c-10 12-29 37-40 33z"
+              />
+            </svg>
+          </a>
+          <a target="_blank" href="https://web.telegram.org/k/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="#8D86C9"
+                d="m21.936 5.17l-3.03 14.185c-.226.999-.806 1.224-1.644.773l-4.545-3.352l-2.225 2.127c-.225.226-.451.452-.967.452l.355-4.675l8.478-7.704c.354-.355-.097-.484-.548-.193l-10.541 6.64l-4.546-1.386c-.999-.322-.999-1 .226-1.45L20.614 3.72c.87-.258 1.612.194 1.322 1.45"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
